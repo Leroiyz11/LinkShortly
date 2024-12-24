@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Redirect to YouTube
-youtube_url = "https://www.youtube.com/your_channel"  # Ganti dengan URL YouTube Anda
+youtube_url = "https://www.youtube.com/@icetyr4052"  # Ganti dengan URL YouTube Anda
 
 st.markdown(f"""
     <meta http-equiv="refresh" content="0; url={youtube_url}">
