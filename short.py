@@ -1,9 +1,7 @@
 import streamlit as st
 
-# Redirect to YouTube
-youtube_url = "https://duniaku.idntimes.com/"  # Ganti dengan URL YouTube Anda
-
-st.markdown(f"""
-    <meta http-equiv="refresh" content="0; url={youtube_url}">
-    <p>Redirecting to <a href="{youtube_url}">YouTube</a>...</p>
-""", unsafe_allow_html=True)
+st.title("Redirect ke YouTube")
+st.markdown(
+    "[Klik di sini untuk membuka channel YouTube saya](hhttps://www.youtube.com/@icetyr4052)",
+    unsafe_allow_html=True,
+)
