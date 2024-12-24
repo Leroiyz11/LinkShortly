@@ -1,7 +1,9 @@
 import streamlit as st
 
-st.title("Redirect ke Blog Saya")
+# Redirect otomatis
 st.markdown(
-    "[Klik di sini untuk membuka blog saya](https://duniaku.idntimes.com/)", 
+    """
+    <meta http-equiv="refresh" content="0; url=https://duniaku.idntimes.com/">
+    """,
     unsafe_allow_html=True,
 )
