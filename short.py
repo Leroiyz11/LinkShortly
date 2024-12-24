@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.title("Redirect ke YouTube")
+st.title("Redirect ke Blog Saya")
 st.markdown(
-    "[Klik di sini untuk membuka channel YouTube saya](hhttps://www.youtube.com/@icetyr4052)",
+    "[Klik di sini untuk membuka blog saya](https://duniaku.idntimes.com/)", 
     unsafe_allow_html=True,
 )
